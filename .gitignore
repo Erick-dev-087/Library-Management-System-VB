@@ -1,11 +1,11 @@
-## Visual Studio temporary files
+# Visual Studio temporary files
 .vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-## Build results
+# Build results
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -20,27 +20,28 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-## Visual Studio cache/options directory
-.vs/
-
-## Visual Studio profiler
+# Visual Studio profiler
 *.psess
 *.vsp
 *.vspx
-*.sap
+*. sap
 
-## ReSharper
+# ReSharper
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 
-## Others
-*.dll
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Files
+*. dll
 *.exe
 *.pdb
 *.cache
 *.ilk
-*.meta
+*. meta
 *.obj
 *.iobj
 *.pch
@@ -55,33 +56,41 @@ _ReSharper*/
 *.tmp
 *.tmp_proj
 *_wpftmp.csproj
-*.log
+*. log
 *.vspscc
-*.vssscc
+*. vssscc
 .builds
-*.pidb
+*. pidb
 *.svclog
 *.scc
 
-## Backup & report files
+# NuGet Packages
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Backup & report files
 _UpgradeReport_Files/
 Backup*/
 UpgradeLog*.XML
 UpgradeLog*.htm
 ServiceFabricBackup/
-*.rptproj.bak
+*. rptproj.bak
 
-## NuGet Packages
-*.nupkg
-**/[Pp]ackages/*
-!**/[Pp]ackages/build/
-
-## Windows image file caches
+# OS Files
 Thumbs.db
+.DS_Store
 ehthumbs.db
-
-## Folder config file
 Desktop.ini
 
-## Recycle Bin
+# Temporary files
+*.temp
+
+# Recycle Bin
 $RECYCLE.BIN/
+
+# Personal documentation (not for submission)
+_ProjectDocumentation/
